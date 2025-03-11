@@ -5,10 +5,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - nikko-guy/CS3202
+  - nikko-guy/Kaggle-Cancer
+  - nikko-guy/Loan-Rangers
+  - nikko-guy/Robotics-Inverse-Kinematics
+  - nikko-guy/Robotics-Mapping
+  - nikko-guy/Robotics-Path-Planning

@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Nikko
 last_name: Gajowniczek
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to contact me, or leave a comment my posts. I'd love to hear from you!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my personal website! Come take a look at my projects, experience, blog posts, and more.
 footer_text: > # text in the footer
@@ -187,6 +187,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/about_einstein.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
