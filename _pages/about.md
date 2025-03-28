@@ -31,4 +31,5 @@ latest_posts:
 Hi! I'm Nikko, and it's a pleasure to welcome you to my cozy corner on the internet. My mission is to empower people, and help everyone I can reach their full potential. This guiding principle has shaped my path through many roles -- whether I'm mentoring students to unlock the power of coding, managing an escape room to provide a thought-provoking and exciting experience, or designing software to help doctors make more informed decisions. Regardless of the setting, I aim to bring a mindset centered on clarity, empathy, and delivering meaningful outcomes.
 
 If you're curious about what I'm currently working on, feel free to check out my [blog](https://nikko-guy.github.io/blog/)! You’ll also find my past work and other resources in the menu bar above.
-Also, to answer the inevitable question, my last name is pronounced Guy-of-knee-check. 
+
+And to answer the inevitable question, my last name is pronounced Guy-of-knee-check. 
