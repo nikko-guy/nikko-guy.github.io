@@ -50,18 +50,6 @@ My initial approach was a straightforward CNN using TensorFlow/Keras:
 2. **Dense Output**: A final layer with a single sigmoid neuron for binary classification.
 3. **Optimizer & Loss**: Started with `binary_crossentropy` and Adam.
 
-```mermaid
-flowchart LR
-    A([Input Images]) --> B[Conv2D + ReLU]
-    B --> C[MaxPooling2D]
-    C --> D[Conv2D + ReLU]
-    D --> E[MaxPooling2D]
-    E --> F[Flatten]
-    F --> G[Dense + ReLU]
-    G --> H[Dense (Sigmoid)]
-    H --> I((Output: Malignant or Benign))
-```
-
 By about the third epoch, I saw clear signs of overfitting, which motivated more advanced regularization and scheduling.
 
 # Data Cleaning and Model Improvements
