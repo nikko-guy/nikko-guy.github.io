@@ -8,7 +8,7 @@ last_name: Gajowniczek
 contact_note: >
   Feel free to contact me, or leave a comment my posts. I'd love to hear from you!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to my personal website! Come take a look at my projects, experience, blog posts, and more.
+  Welcome to my personal website! Take a look at my projects, experience, blog posts, and more.
 footer_text: > # text in the footer
 keywords: jekyll, jekyll-theme, nikko-guy, Nikko, Gajowniczek, personal, website, portfolio, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -38,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
