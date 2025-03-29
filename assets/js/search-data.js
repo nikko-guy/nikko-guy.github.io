@@ -361,46 +361,16 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-detecting-cancerous-cells-with-a-convolutional-neural-network",
+          section: "News",},{id: "projects-detecting-cancerous-cells-with-a-convolutional-neural-network",
           title: 'Detecting cancerous cells with a Convolutional Neural Network',
           description: "Using a Kaggle dataset, I achieved 90% accuracy with limited AI knowledge!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cancer_cnn/";
+            },},{id: "projects-predicting-loan-applicant-risk",
+          title: 'Predicting Loan Applicant Risk',
+          description: "Using competitino Kaggle data, we built models to classify loan applications as safe or risky.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/loan_rangers/";
             },},{
         id: 'social-email',
         title: 'email',
