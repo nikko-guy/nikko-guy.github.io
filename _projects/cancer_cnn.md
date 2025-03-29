@@ -3,7 +3,7 @@ layout: page
 title: Detecting cancerous cells with a Convolutional Neural Network
 description: Using a Kaggle dataset, I achieved 90% accuracy with limited AI knowledge!
 img: assets/img/projects/cancer_cnn/collage.png
-importance: 1
+importance: 4
 category: school
 related_publications: true
 toc:
@@ -72,9 +72,10 @@ To combat overfitting and achieve more stable performance:
 After multiple iterations, I landed on:
 
 - **Architecture**: Several Conv2D + MaxPooling2D layers, then Flatten and two Dense layers (with dropout).  
-- **Loss & LR Scheduling**: Retained `binary_crossentropy`, complementing it with an adaptive learning rate that automatically dropped whenever validation metrics stalled.  
-- **Cleaned Dataset**: By discarding unhelpful images and focusing on genuinely informative examples, the model got clearer signals during training.
+- **Loss & LR Scheduling**: Retained `binary_crossentropy`, complementing it with an adaptive learning rate that cycles between ceiling and floor, while approaching the floor.  
+- **Data Augmentation**: Incorporated random flips and small brightness changes.  
+- **Unchanged Dataset**: Discarding certain images decreased performance, the full dataset was provided.
 
-This final setup reached ~90% accuracy on a held-out test split, which was a marked improvement from my earliest attempts.
+This optimized setup reached ~90% accuracy on a held-out test split, which was a marked improvement from my earliest attempts.
 
-You can find all my code for this project on my [GitHub repo](https://github.com/nikko-guy/Kaggle-Cancer). Overall, combining careful data filtering, augmentation, and learning rate scheduling helped me achieve strong results with relatively little prior AI experience.
+You can find all my code for this project on my [GitHub repo](https://github.com/nikko-guy/Kaggle-Cancer). Overall, combining data augmentation and learning rate scheduling helped me achieve strong results with relatively little prior AI experience.

@@ -5,8 +5,8 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Nikko
 last_name: Gajowniczek
-contact_note: >
-  Feel free to contact me, or leave a comment my posts. I'd love to hear from you!
+# contact_note: >
+#   Feel free to contact me, or leave a comment on one of my posts. I'd love to hear from you!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my personal website! Take a look at my projects, experience, blog posts, and more.
 footer_text: > # text in the footer
