@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Detecting cancerous cells with a Convolutional Neural Network
+title: Detecting Cancerous Cells
 description: Using a Kaggle dataset, I achieved 90% accuracy with limited AI knowledge!
 img: assets/img/projects/cancer_cnn/collage.png
 importance: 4

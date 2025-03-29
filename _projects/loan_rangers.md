@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Predicting Loan Applicant Risk
-description: Using competitino Kaggle data, we built models to classify loan applications as safe or risky.
+description: Using competition Kaggle data, we built models to classify loan applications as safe or risky.
 img: assets/img/projects/loan_rangers/cover_image.png
 importance: 1
 category: school
@@ -85,9 +85,6 @@ You can view the original dataset [here](https://www.kaggle.com/competitions/hom
 
 # Slide Deck
 
-You can view our full project slides below.
+You can view our full project slides below or on github.
 
-<iframe src="/assets/pdf/loan_rangers_slides.pdf" width="100%" height="600px" style="border: none;">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/assets/pdf/loan_rangers_slides.pdf">Download PDF</a>.
-</iframe>
+<iframe src="/assets/pdf/loan_rangers_slides.pdf" width="100%" height="600px"></iframe>
