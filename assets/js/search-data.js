@@ -361,14 +361,14 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-detecting-cancerous-cells-with-a-convolutional-neural-network",
-          title: 'Detecting cancerous cells with a Convolutional Neural Network',
+          section: "News",},{id: "projects-detecting-cancerous-cells",
+          title: 'Detecting Cancerous Cells',
           description: "Using a Kaggle dataset, I achieved 90% accuracy with limited AI knowledge!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cancer_cnn/";
             },},{id: "projects-predicting-loan-applicant-risk",
           title: 'Predicting Loan Applicant Risk',
-          description: "Using competitino Kaggle data, we built models to classify loan applications as safe or risky.",
+          description: "Using competition Kaggle data, we built models to classify loan applications as safe or risky.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/loan_rangers/";
             },},{
