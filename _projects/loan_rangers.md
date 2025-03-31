@@ -82,9 +82,3 @@ Our work revealed several areas for further research:
 This project laid the groundwork for building data-driven credit risk models. While our best results approached the 0.72 ROC-AUC mark, top Kaggle entries achieve over 0.80, showing there’s still room to grow. But we learned a ton about handling real-world datasets, resampling, ensemble modeling, and more.
 
 You can view the original dataset [here](https://www.kaggle.com/competitions/home-credit-default-risk/data). You can view our [github](https://github.com/nikko-guy/Loan-Rangers) too!
-
-# Slide Deck
-
-You can view our full project slides below or on github.
-
-<iframe src="/assets/pdf/loan_rangers_slides.pdf" width="100%" height="600px"></iframe>
